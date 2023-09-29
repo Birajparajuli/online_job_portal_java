@@ -14,9 +14,9 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item"><a class="nav-link active"
+<!--				<li class="nav-item"><a class="nav-link active"
 					aria-current="page" href="home.jsp"><i
-						class="fa-solid fa-house p-1"></i>Home</a></li>
+						class="fa-solid fa-house p-1"></i>Home</a></li>-->
 
 				<c:if test="${ userObject.role eq 'admin' }">
 					<li class="nav-item"><a class="nav-link active"

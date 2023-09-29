@@ -9,14 +9,14 @@
 <title>Signup</title>
 <%@ include file="all_components/all_css.jsp"%>
 </head>
-<body style="background-color: #f0f1f2">
+<body>
 
 	<%@include file="all_components/navbar.jsp"%>
 	<div class="container p-3">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
 				<div class="card">
-					<div class="card-body">
+					<div class="card-body" style="background-color: #f8f9fa">
 
 						
 						<h4 class="text-center">
@@ -55,7 +55,7 @@
 							</div>
 							
 
-							<button type="submit" class="btn btn-primary">Register</button>
+							<button type="submit" class="btn btn-custom">Register</button>
 							
 							<p class="p-2">Registered Already? <a href="recruiter_login.jsp" style="text-decoration:none;">Login</a></p>
 						</form>

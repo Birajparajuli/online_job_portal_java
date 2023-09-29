@@ -9,13 +9,13 @@
 <title>Index</title>
 <%@include file="all_components/all_css.jsp"%>
 </head>
-<body style="background-color: #f0f1f2">
+<body >
 	<%@include file="all_components/navbar.jsp"%>
 	<div class="container p-3">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
 				<div class="card">
-					<div class="card-body">
+					<div class="card-body" style="background-color: #f8f9fa">
 
 						<form action="login" method="post">
 							<h4 class="text-center">
@@ -37,7 +37,7 @@
 									type="password" class="form-control" name="pwd" required>
 							</div>
 
-							<button type="submit" class="btn btn-primary btn-block">Login</button>
+							<button type="submit" class="btn btn-custom">Login</button>
 						</form>
 					</div>
 				</div>

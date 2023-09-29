@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Index</title>
+<title>KTM Jobs - Homepage</title>
 <%@include file="all_components/all_css.jsp"%>
 <style type="text/css">
 .back-image {
