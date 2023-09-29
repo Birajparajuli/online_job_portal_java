@@ -1,5 +1,5 @@
-<div class="container-fluid bg-custom">
+<div class="container-fluid footer-style">
 	<div class="text-center">
-		<h5>Design by Akshay Patil</h5>
+		<h5>Developed by Biraj & Aashish | Project VI CITE 2023</h5>
 	</div>
 </div>

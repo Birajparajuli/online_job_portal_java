@@ -1,9 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false"%>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+<nav class="navbar navbar-expand-lg navbar-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.jsp">Job Portal</a>
+            <a class="navbar-brand" href="index.jsp">
+                <img src="images/logo.png" style="width:60%"/>
+            </a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
